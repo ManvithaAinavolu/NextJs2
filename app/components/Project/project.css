@@ -1,0 +1,42 @@
+/* components/Projects/projects.css */
+
+#page2 {
+    text-align: center;
+}
+
+#page2 h1 {
+    font-weight: bold;
+    padding: 20px 0;
+    border-bottom: 3px solid black;
+    display: inline-block;
+}
+
+.project {
+    display: grid; /* Change to grid */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Add gap between grid items */
+    justify-content: center; /* Center the grid items horizontally */
+    margin-top: 20px;
+}
+
+.project-info {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.project-info h3 {
+    padding-bottom: 10px;
+    border-bottom: 2px solid blue;
+}
+
+.project-info p {
+    margin-bottom: 20px;
+}
+
+.project-image img {
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,83 @@
+
+#main {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #page {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+  }
+  
+  #page img {
+    position: absolute;
+    right: 5%;
+    top: 52%;
+    transform: translateY(-50%);
+    width: 50%;
+    height: 800px;
+  }
+  
+  #page #nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 30px;
+    position: absolute;
+    z-index: 0;
+    height: 10%;
+    width: 100%;
+  }
+  
+  #text {
+    padding: 30px 50px;
+    position: relative;
+    top: 10%;
+    left: 8%;
+    height: 75%;
+    width: 35%;
+    scale: 1.1;
+  }
+  
+  #text h1 {
+    font-size: 60px;
+    line-height: 1;
+    margin-top: 20px;
+  }
+  
+  #text h4 {
+    margin-top: 30px;
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+  }
+  
+  #buttons {
+    position: absolute;
+    left: 0%;
+    bottom: 18%;
+    height: 20%;
+    width: 100%;
+    margin-left: 25px;
+  }
+  
+  #buttons button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 500;
+    margin-top: 140px;
+  }
+  
+  #buttons button a {
+    font-size: 20px;
+    color: white;
+  }
+  
+  #buttons #b2 {
+    margin-left: 20px;
+    background-color: black;
+  }
+  
